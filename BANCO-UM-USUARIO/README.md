@@ -42,24 +42,6 @@ Ele faz parte do meu repositório de ideias, onde aplico na prática o que apren
 - Validação de saldo e de login
 - Execução de comando do sistema com `ProcessBuilder` para limpar a tela
 
-## ▶️ Como executar
-
-1. Clone o repositório e entre na pasta do projeto:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-   cd NOME-DO-REPOSITORIO/banco-sf
-   ```
-2. Compile os arquivos:
-   ```bash
-   javac *.java
-   ```
-3. Execute:
-   ```bash
-   java Menu
-   ```
-
-> Requisito: **JDK** instalado. A limpeza de tela usa o comando `clear`, que funciona em Linux e macOS. No Windows, a tela não será limpa e aparecerá a mensagem de aviso.
-
 ## 📸 Exemplo de uso
 
 ```
