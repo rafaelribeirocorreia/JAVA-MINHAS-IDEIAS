@@ -19,7 +19,7 @@ Bem-vindo ao meu laboratório de ideias! Aqui reúno projetos e experimentos que
 
 | Projeto | Descrição | Conceitos aplicados |
 |---------|-----------|---------------------|
-| [🏦 Banco SF](./banco-sf) | Simulador de banco no terminal, com criação de conta, login, PIX, transferência, consulta de conta e cartão | POO, encapsulamento, `Scanner`, `switch`, `while`, validação de saldo e login |
+| [🏦 Banco SF](./BANCO-UM-USUARIO) | Simulador de banco no terminal, com criação de conta, login, PIX, transferência, consulta de conta e cartão | POO, encapsulamento, `Scanner`, `switch`, `while`, validação de saldo e login |
 
 *(Novos projetos serão adicionados a esta tabela conforme eu for desenvolvendo.)*
 
@@ -32,7 +32,7 @@ Um banco simples que roda no terminal. Cada conta começa com **R$ 1.500,00** e 
 - `Conta`: modelo de dados da conta
 - `Painel`: telas, comprovantes e limpeza de tela
 
-Veja mais detalhes no [README do Banco SF](./banco-sf/README.md).
+Veja mais detalhes no [README do Banco SF](./BANCO-UM-USUARIO/README.md).
 
 ## 📁 Estrutura do repositório
 
@@ -92,7 +92,7 @@ Sugestões e feedbacks são muito bem-vindos! Abra uma *issue* ou envie um *pull
 ## 👤 Autor
 
 **Seu Nome**
-GitHub: [@SEU-USUARIO](https://github.com/SEU-USUARIO)
+GitHub: [@SEU-USUARIO](https://github.com/rafaelribeirocorreia)
 
 ---
 
