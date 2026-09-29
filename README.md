@@ -19,7 +19,7 @@ Bem-vindo ao meu laboratório de ideias! Aqui reúno projetos e experimentos que
 
 | Projeto | Descrição | Conceitos aplicados |
 |---------|-----------|---------------------|
-| [🏦 Banco SF](./BANCO-UM-USUARIO) | Simulador de banco no terminal, com criação de conta, login, PIX, transferência, consulta de conta e cartão | POO, encapsulamento, `Scanner`, `switch`, `while`, validação de saldo e login |
+| [🏦 Banco](./BANCO-UM-USUARIO) | Simulador de banco no terminal, com criação de conta, login, PIX, transferência, consulta de conta e cartão | POO, encapsulamento, `Scanner`, `switch`, `while`, validação de saldo e login |
 
 *(Novos projetos serão adicionados a esta tabela conforme eu for desenvolvendo.)*
 
@@ -32,7 +32,7 @@ Um banco simples que roda no terminal. Cada conta começa com **R$ 1.500,00** e 
 - `Conta`: modelo de dados da conta
 - `Painel`: telas, comprovantes e limpeza de tela
 
-Veja mais detalhes no [README do Banco SF](./BANCO-UM-USUARIO/README.md).
+Veja mais detalhes no [README do Banco](./BANCO-UM-USUARIO/README.md).
 
 ## 📁 Estrutura do repositório
 
@@ -40,7 +40,7 @@ Cada ideia fica em sua própria pasta, com o código e uma explicação rápida:
 
 ```
 .
-├── banco-sf/
+├── banco-um-usuario/
 │   ├── Menu.java
 │   ├── Banco.java
 │   ├── Conta.java
