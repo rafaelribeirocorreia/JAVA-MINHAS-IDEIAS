@@ -64,11 +64,11 @@ Cada ideia fica em sua própria pasta, com o código e uma explicação rápida:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/rafaelribeirocorreia/JAVA-MINHAS-IDEIAS.git
    ```
 2. Entre na pasta do projeto que deseja testar (exemplo com o Banco SF):
    ```bash
-   cd NOME-DO-REPOSITORIO/banco-sf
+   cd JAVA-MINHAS-IDEIAS/BANCO-UM-USUARIO
    ```
 3. Compile e execute:
    ```bash
