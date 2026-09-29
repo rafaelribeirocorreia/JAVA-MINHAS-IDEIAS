@@ -60,24 +60,6 @@ Cada ideia fica em sua própria pasta, com o código e uma explicação rápida:
 - Validações de regras de negócio (saldo, login)
 - Execução de comandos do sistema com `ProcessBuilder`
 
-## ▶️ Como executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/rafaelribeirocorreia/JAVA-MINHAS-IDEIAS.git
-   ```
-2. Entre na pasta do projeto que deseja testar (exemplo com o Banco SF):
-   ```bash
-   cd JAVA-MINHAS-IDEIAS/BANCO-UM-USUARIO
-   ```
-3. Compile e execute:
-   ```bash
-   javac *.java
-   java Menu
-   ```
-
-> Requisito: **JDK** instalado. A limpeza de tela usa o comando `clear`, que funciona em Linux e macOS.
-
 ## 🚀 Próximos passos
 
 - [ ] Evoluir o Banco SF com várias contas, histórico de transações e persistência de dados
