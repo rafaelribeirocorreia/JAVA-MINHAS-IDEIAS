@@ -1,52 +1,64 @@
 # 💡 Repositório de Ideias
 
-Bem-vindo ao meu laboratório de ideias! Este repositório reúne projetos, experimentos e protótipos que desenvolvo em **Java**, sempre com o objetivo de **aplicar na prática o que já sei** e aprender o que ainda não sei.
+Bem-vindo ao meu laboratório de ideias! Aqui reúno projetos e experimentos que desenvolvo em **Java**, sempre com o objetivo de **aplicar na prática o que já sei** e aprender o que ainda não sei.
 
 ## 🎯 Objetivo
 
 - Transformar ideias soltas em código funcionando
 - Praticar e consolidar conhecimentos de Java
 - Documentar minha evolução como desenvolvedor
-- Servir de portfólio e de fonte de consulta para mim e para quem quiser aprender
+- Servir de portfólio e de fonte de consulta
 
 ## 🛠️ Tecnologias
 
-- **Linguagem:** Java
-- **Build:** Maven ou Gradle *(ajuste conforme o seu projeto)*
+- **Linguagem:** Java (aplicações de terminal)
+- **Entrada de dados:** `Scanner`
 - **Controle de versão:** Git e GitHub
+
+## 📚 Projetos
+
+| Projeto | Descrição | Conceitos aplicados |
+|---------|-----------|---------------------|
+| [🏦 Banco SF](./banco-sf) | Simulador de banco no terminal, com criação de conta, login, PIX, transferência, consulta de conta e cartão | POO, encapsulamento, `Scanner`, `switch`, `while`, validação de saldo e login |
+
+*(Novos projetos serão adicionados a esta tabela conforme eu for desenvolvendo.)*
+
+### 🏦 Destaque: Banco SF
+
+Um banco simples que roda no terminal. Cada conta começa com **R$ 1.500,00** e um limite de cartão de **R$ 500,00**. O usuário cria a conta, entra com nome e senha e usa um menu para fazer PIX, transferências e consultar as informações da conta e do cartão. O código é dividido em quatro classes, cada uma com sua responsabilidade:
+
+- `Menu`: ponto de entrada e fluxo dos menus
+- `Banco`: regras de negócio (criar conta, login, PIX e transferência)
+- `Conta`: modelo de dados da conta
+- `Painel`: telas, comprovantes e limpeza de tela
+
+Veja mais detalhes no [README do Banco SF](./banco-sf/README.md).
 
 ## 📁 Estrutura do repositório
 
-Cada ideia fica em sua própria pasta, com seu código e uma explicação rápida:
+Cada ideia fica em sua própria pasta, com o código e uma explicação rápida:
 
 ```
 .
-├── ideia-01-nome-da-ideia/
-│   ├── src/
+├── banco-sf/
+│   ├── Menu.java
+│   ├── Banco.java
+│   ├── Conta.java
+│   ├── Painel.java
 │   └── README.md
-├── ideia-02-nome-da-ideia/
-│   ├── src/
+├── proxima-ideia/
 │   └── README.md
 └── README.md
 ```
 
-## 📚 Ideias já implementadas
-
-| Projeto | Descrição | Conceitos aplicados |
-|---------|-----------|---------------------|
-| [ideia-01](./ideia-01-nome-da-ideia) | Breve descrição da ideia | POO, Collections |
-| [ideia-02](./ideia-02-nome-da-ideia) | Breve descrição da ideia | Streams, Exceções |
-
-*(Atualize esta tabela a cada nova ideia adicionada.)*
-
 ## 🧠 Conhecimentos aplicados
 
-- Programação Orientada a Objetos (classes, herança, polimorfismo, interfaces)
-- Collections e Generics
-- Tratamento de exceções
-- Streams e expressões lambda
-- Manipulação de arquivos
-- *(adicione aqui outros temas que você usa)*
+- Programação Orientada a Objetos (classes, objetos, encapsulamento, getters e setters)
+- Separação de responsabilidades entre classes
+- Leitura de dados do usuário com `Scanner`
+- Estruturas de controle (`while`, `switch`, `if/else`)
+- Validações de regras de negócio (saldo, login)
+- Execução de comandos do sistema com `ProcessBuilder`
 
 ## ▶️ Como executar
 
@@ -54,20 +66,21 @@ Cada ideia fica em sua própria pasta, com seu código e uma explicação rápid
    ```bash
    git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
    ```
-2. Entre na pasta da ideia que deseja testar:
+2. Entre na pasta do projeto que deseja testar (exemplo com o Banco SF):
    ```bash
-   cd NOME-DO-REPOSITORIO/ideia-01-nome-da-ideia
+   cd NOME-DO-REPOSITORIO/banco-sf
    ```
 3. Compile e execute:
    ```bash
-   javac -d out src/*.java
-   java -cp out Main
+   javac *.java
+   java Menu
    ```
 
-> Requisito: **JDK 17 ou superior** instalado *(ajuste para a versão que você usa)*.
+> Requisito: **JDK** instalado. A limpeza de tela usa o comando `clear`, que funciona em Linux e macOS.
 
 ## 🚀 Próximos passos
 
+- [ ] Evoluir o Banco SF com várias contas, histórico de transações e persistência de dados
 - [ ] Adicionar novas ideias regularmente
 - [ ] Incluir testes com JUnit
 - [ ] Melhorar a documentação de cada projeto
