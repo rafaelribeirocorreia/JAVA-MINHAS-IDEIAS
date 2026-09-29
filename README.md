@@ -92,7 +92,7 @@ Sugestões e feedbacks são muito bem-vindos! Abra uma *issue* ou envie um *pull
 ## 👤 Autor
 
 **Seu Nome**
-GitHub: [@SEU-USUARIO](https://github.com/rafaelribeirocorreia)
+GitHub: [@RafelRibeiroCorreia](https://github.com/rafaelribeirocorreia)
 
 ---
 
